@@ -3,5 +3,9 @@
   "version": "2.0.3",
   "description": "jQuery component",
   "keywords": ["jquery"],
-  "main": "./jquery.min.js"
+  "main": "./jquery.js",
+  "jspm" {
+    "main": "jquery.min",
+    "files": ["jquery.min.js", "jquery.min.map", "jquery.js"]
+  }
 }
