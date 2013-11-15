@@ -5,7 +5,10 @@
   "keywords": ["jquery"],
   "main": "./jquery.js",
   "jspm" {
-    "main": "jquery.min",
-    "files": ["jquery.min.js", "jquery.min.map", "jquery.js"]
+    "main": "jquery",
+    "files": ["jquery.js"],
+    "buildConfig" {
+        "uglify": "true"
+    }
   }
 }
